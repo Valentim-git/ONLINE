@@ -1,0 +1,115 @@
+body{
+    background-color: #DDDDFF;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #666666;
+    color: white;
+    margin: 0px;
+    padding: 10px 10px 30px 10px;
+}
+
+header h1{
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h2{
+    margin: 0px;
+}
+
+nav{
+    background-color: #330000;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:first-child{
+    padding-left: 0px;
+}
+
+nav li:last-child{
+    border: none;
+}
+
+section{
+    background-color: white;
+}
+
+section article {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+section h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section p {
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin: 0px;
+
+}
+
+section img{
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+section article ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+section article li {
+    display: inline;
+    text-decoration: none;
+    background-color: gray;
+    padding-bottom: 4px;
+
+}
+
+section article ul a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: white;
+}
+
+footer p {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
